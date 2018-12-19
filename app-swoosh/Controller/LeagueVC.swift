@@ -39,7 +39,7 @@ class LeagueVC: UIViewController {
         nextBn.isEnabled = true;
     }
     @IBAction func onNextTapped(_ sender: Any) {
-        performSegue(withIdentifier: "skillVCsegue", sender: self)
+        performSegue(withIdentifier: "skillVCseque", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
